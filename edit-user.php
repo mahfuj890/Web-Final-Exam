@@ -23,7 +23,7 @@ include('config.php');
 
     <form action="config.php" method="POST" class="form_area">
         <div class="input_row">
-        <input type="hidden" name="id" value="<?php echo $id; ?>">
+            <input type="hidden" name="id" value="<?php echo $id; ?>">
         </div>
         <div class="input_row">
             <label for="">Name</label>
@@ -51,6 +51,9 @@ include('config.php');
 
 
 
+
+
+    
     </form>
 
 
