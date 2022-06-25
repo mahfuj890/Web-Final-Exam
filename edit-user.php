@@ -21,7 +21,7 @@ include('config.php');
 
 <body>
 
-    <form action="config.php?update" method="POST" class="form_area">
+    <form action="config.php" method="POST" class="form_area">
         <div class="input_row">
         <input type="hidden" name="id" value="<?php echo $id; ?>">
         </div>
@@ -45,7 +45,7 @@ include('config.php');
 
         <div class="input_row">
             <div>
-                <button type="submit" class="submit_btn">Update</button>
+                <button type="submit" class="submit_btn" name="update">Update</button>
             </div>
         </div>
 
